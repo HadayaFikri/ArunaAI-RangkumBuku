@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/x"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Tombol Kembali"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="8dp"
+            app:tint="#2C3E50" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHapusRiwayat"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hapus Semua"
+            android:fontFamily="@font/poppinsmedium"
+            android:textAllCaps="false"
+            android:layout_gravity="right"
+            android:layout_margin="12dp"
+            android:textColor="#FB4141"
+            app:strokeColor="#2C3E50"
+            app:strokeWidth="2dp"
+            app:cornerRadius="20dp"
+            android:textSize="12sp"
+            app:rippleColor="#22FB4141" />
+
+        <TextView
+            android:text="Riwayat Rangkuman"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppinsbold"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerRiwayat"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="match_parent"
+        android:padding="16dp" />
+
+</LinearLayout>

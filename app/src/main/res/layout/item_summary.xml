@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#EFE4D2"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#EFE4D2"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtPrompt"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:text="12 Jul 2025 22:00"
+        android:textSize="12sp"
+        android:textColor="#2C3E50"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnHapusItem"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:fontFamily="@font/poppinsmedium"
+        android:textAllCaps="false"
+        android:textColor="#FB4141"
+        app:strokeColor="#2C3E50"
+        app:strokeWidth="2dp"
+        app:cornerRadius="20dp"
+        app:rippleColor="#22FB4141"/>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
