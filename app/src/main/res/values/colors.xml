@@ -1,0 +1,21 @@
+<resources>
+    <!-- Warna dasar -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Warna custom kamu -->
+    <color name="bg_main">#FFFFFF</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_primary">#2C3E50</color>
+    <color name="text_secondary">#2C3E50</color>
+    <color name="icon_tint">#2C3E50</color>
+    <color name="icon_tint_light">#F2F2F2</color>
+    <color name="icon_bg">#293950</color>
+    <color name="output_bg">#F2F2F2</color>
+    <color name="output_text">#B6B09F</color>
+    <color name="sumeri">#EFE4D2</color>
+    <color name="sumeri2">#D4AA7D</color>
+    <color name="actdetailbg">#EFE4D2</color>
+    <color name="actdetailtext">#2C3E50</color>
+    <color name="actdetailtextsec">#2C3E50</color>
+</resources>
