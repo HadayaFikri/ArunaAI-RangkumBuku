@@ -9,8 +9,8 @@ import java.io.IOException
 object OpenRouterClient {
     private val client = OkHttpClient()
 
-    private const val API_URL = "https://openrouter.ai/api/v1/chat/completions"
-    private const val API_KEY = "Bearer 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"
+    private const val API_URL = "Masukan URl"
+    private const val API_KEY = "Masukan API"
 
     fun kirimPrompt(prompt: String, callback: (String?) -> Unit) {
         val jsonBody = JSONObject()
